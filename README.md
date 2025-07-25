@@ -1,4 +1,4 @@
-# Anomaly Detection based on Variational Auto-Encoders
+# Anomaly Detection using Radiofrequency signals (based on Variational Auto-Encoders)
 
 _Detection of liver nodules using 1D signals from ultrasound acquisitions._  
 _LBUM/CRCHUM - Université de Montréal_  
