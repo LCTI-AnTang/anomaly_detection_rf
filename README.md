@@ -12,7 +12,9 @@ In this approach, a model is trained only with “normal” data to learn repres
 
 ## Usage
 **Note  - Data not available in this repository. Code is presented for demonstration purposes.**  
-Please follow the Jupyter Notebook.
+To explore, please refer to the Jupyter Notebook included in the repository. The code is intended to be easily adaptable: changes to model architecture, hyperparameters, or other configuration settings can be made directly on it.  
+
+The requirements.txt file was generated automatically from a dummy project's virtual environment. You may need to adjust specific package versions depending on your system configuration.  
 
 ## Contact information
 For any questions or comments, please contact the project authors at:
