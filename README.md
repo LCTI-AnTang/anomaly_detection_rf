@@ -5,7 +5,7 @@ _LBUM/CRCHUM - Université de Montréal_
 
 **Note  - This code is the basis for the following publication:**  
 
-- Vianna P, Héroux A, Fohlen A, Nguyen BN, Tang A, Cloutier G. Liver Nodule Anomaly Detection Using Ultrasound Radiofrequency Signals and Variational Autoencoders. IEEE Transactions on Medical Imaging, submitted (under review). Status: 2025-07-25.  
+- Vianna P, Héroux A, Fohlen A, Nguyen BN, Tang A, Cloutier G. Liver Nodule Anomaly Detection Using Ultrasound Radiofrequency Signals and Variational Autoencoders. Medical Image Analysis, submitted (under review). Status: 2026-01-02.  
 
 ## Introduction
 In this approach, a model is trained only with “normal” data to learn representative features of the source domain, to subsequently distinguish abnormal findings based on deviations of features learned. For conducting anomaly detection with variational autoencoders (VAE), models are trained to reconstruct the input, using only data from one class, i.e. negative samples. In this manner, VAE models can be particularly interesting for unsupervised detection of abnormal nodules as they allow for approximating the likelihood of a given datapoint with respect to the distribution they were trained on, which means they can reconstruct well the majority class samples (“normal” data) and underperform in reconstructing other samples.
